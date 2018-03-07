@@ -1,0 +1,23 @@
+Hardware Components
+
+getLotOccupancy()
+setLotOccupancy(Integer occupancy)
+getVehiclePlateImg() 
+  -> getCharacterFromImg()
+      -> extractCharFromImg()
+      
+verifyPlate()
+  ->comparePlate()
+  
+Software Componenst
+
+System Requirements; Actor[1-User, 0-Admin, 2-SecurityGuard]
+  Mobile Apps:- [1, 0]
+    ->login_activity[1, 0]
+    ->main_activity[1, 0]
+    ->register_user_activity[0]
+    ->view_parking_lot_activity[1]
+    
+  Web Application:- [2]
+    ->home_page[2]
+    ->monitor_parking_lot[2]
